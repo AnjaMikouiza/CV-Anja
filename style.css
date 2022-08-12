@@ -1,0 +1,143 @@
+
+/*general rules*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    flex-direction: row-reverse;
+}
+header div li{
+    list-style: none;
+}
+.leftside{
+width: 30%;
+background-color: rgb(30, 8, 44);
+color: aliceblue;
+}
+.rightside{
+width: 70%;
+}
+.flex p{
+    font-size:1.5em ;
+}
+.zone20{
+width: 20%;
+}
+.zone80{
+width: 80%;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 70px;
+    padding: 30px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#namecolor{
+    color: rgb(216, 151, 227);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    text-align: center;
+}
+h3{
+    display: block;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 15px 15px;
+    background-color: rgb(216, 151, 227);
+}
+h4{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7em;
+    padding: 10px 20px;
+    text-align: center;
+    background-size: cover;
+    background-color: rgba(131, 202, 213, 0.557);
+}
+h5{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    text-align: center;
+}
+p{
+    padding: 10px 20px;
+}
+.left, .middle, .right{
+    padding-left: 5px;
+    display: block;
+}
+#loisirs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    padding-left: 20px;
+}
+header img{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+#contact{
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#profil{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#langues{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    
+}
+#loisirs{
+    padding-top: 30px;
+
+}
+
+#formation{
+    padding-top: 30px;
+}
+hgroup{
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+i{
+    color:rgb(216, 151, 227);
+}
+@media(max-width: 1024px){
+    .flex, .leftside, .rightside{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column-reverse;
+    }
+}
+
+
